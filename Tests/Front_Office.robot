@@ -12,6 +12,8 @@ Test Teardown  End Web Test
 ${BROWSER} =  chrome
 ${URL} =  https://automationplayground.com/front-office/
 
+
+#My_First_Test
 *** Test Cases ***
 Should be able to access "Team" page
     [Documentation]  This is test 1
@@ -19,6 +21,8 @@ Should be able to access "Team" page
     FrontOfficeApp.Go to Landing Page
     FrontOfficeApp.Go to "Team" Page
 
+
+#My_Second_Test
 "Team" page should match requirements
     [Documentation]  This is test 2
     [Tags]  test2
